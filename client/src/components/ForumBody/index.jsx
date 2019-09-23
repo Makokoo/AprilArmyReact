@@ -5,15 +5,15 @@ export default class ForumBody extends Component {
         return (
             <Fragment>
 
-                <div style={styleDiv} className="text-center bg-danger">
+                <div className="text-center bg-danger">
                     <img style={styles} src='https://aprilarmy.world/vendor/devdojo/chatter/assets/images/logo-light.png' ></img>
                 </div>
 
-                <div style={styleBackground} className="bg-dark">
+                <div style={styleBackground} className="bg-dark backgroundAprilArmy">
                     <div className="container text-center">
 
                         <div className="mt-3">
-                            <button className="btn btn-success">
+                            <button className="gold btn btn-warning">
                                 <span className="fa fa-plus"></span>
                                 <span style={categoryStyle}>New Discussion</span>
                             </button>
@@ -25,15 +25,17 @@ export default class ForumBody extends Component {
 
                                 <div className="row">
                                     <div className="col-12 mt-3">
-                                        <div className="card">
+                                        <div className="card border-danger backgroundMessage">
                                             <div className="card-horizontal">
                                                 <div className="col-2">
-                                                    <img style={imgstyle} src="https://aprilarmy.world/uploads/2019/01/06/BgRsI8KzdR_120x120.jpg" />
+                                                    <a href="">
+                                                        <img style={imgstyle} src="https://aprilarmy.world/uploads/2019/01/06/BgRsI8KzdR_120x120.jpg" />
+                                                    </a>
                                                 </div>
                                                 <div className="col-9">
                                                     <div style={previewContent}>
                                                         <div className="text-left">
-                                                            <a href="" className="text-dark">
+                                                            <a href="/discussion" className="text-light">
                                                                 <b>Post title demo</b>
                                                             </a>
                                                             <div style={categoryStyle} className="d-inline-block text-left">
@@ -41,60 +43,20 @@ export default class ForumBody extends Component {
                                                             </div>
                                                         </div>
 
-                                                        <div className="card-text text-left small">
+                                                        <div className="card-text text-left small text-light">
                                                             Some quick example text to build on the card title and make up the bulk of the card's content.
                                                             Some quick example text to build on the card title and make up the bulk of the card's content...
                                                         </div>
                                                     </div>
 
-                                                    <div style={timeAgo} className=" text-right small font-weight-light">
+                                                    <div style={timeAgo} className=" text-right small font-weight-light text-warning">
                                                         Topic started by Pontus Hjelm 1 day ago.
                                                     </div>
 
                                                 </div>
                                                 <div className="col-1">
                                                     <span style={categoryStyle2} className="fa fa-comments"></span>
-                                                    <span className="">2</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-                                <div className="row">
-                                    <div className="col-12 mt-3">
-                                        <div className="card">
-                                            <div className="card-horizontal">
-                                                <div className="col-2">
-                                                    <img style={imgstyle} src="https://aprilarmy.world/uploads/2019/01/06/BgRsI8KzdR_120x120.jpg" />
-                                                </div>
-                                                <div className="col-9">
-                                                    <div style={previewContent}>
-                                                        <div className="text-left">
-                                                            <a href="" className="text-dark">
-                                                                <b>Post title demo</b>
-                                                            </a>
-                                                            <div style={categoryStyle} className="d-inline-block text-left">
-                                                                <span className="badge badge-danger">Music</span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div className="card-text text-left small">
-                                                            Some quick example text to build on the card title and make up the bulk of the card's content.
-                                                            Some quick example text to build on the card title and make up the bulk of the card's content...
-                                                        </div>
-                                                    </div>
-
-                                                    <div style={timeAgo} className=" text-right small font-weight-light">
-                                                        Topic started by Pontus Hjelm 1 day ago.
-                                                    </div>
-
-                                                </div>
-                                                <div className="col-1">
-                                                    <span style={categoryStyle2} className="fa fa-comments"></span>
-                                                    <span className="">2</span>
+                                                    <span style={categoryStyle} className="text-light">288</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -106,15 +68,17 @@ export default class ForumBody extends Component {
 
                                 <div className="row">
                                     <div className="col-12 mt-3">
-                                        <div className="card">
+                                        <div className="card border-danger backgroundMessage">
                                             <div className="card-horizontal">
                                                 <div className="col-2">
-                                                    <img style={imgstyle} src="https://aprilarmy.world/uploads/2019/01/06/BgRsI8KzdR_120x120.jpg" />
+                                                    <a href="">
+                                                        <img style={imgstyle} src="https://aprilarmy.world/uploads/2019/01/06/BgRsI8KzdR_120x120.jpg" />
+                                                    </a>
                                                 </div>
                                                 <div className="col-9">
                                                     <div style={previewContent}>
                                                         <div className="text-left">
-                                                            <a href="" className="text-dark">
+                                                            <a href="" className="text-light">
                                                                 <b>Post title demo</b>
                                                             </a>
                                                             <div style={categoryStyle} className="d-inline-block text-left">
@@ -122,20 +86,63 @@ export default class ForumBody extends Component {
                                                             </div>
                                                         </div>
 
-                                                        <div className="card-text text-left small">
+                                                        <div className="card-text text-left small text-light">
                                                             Some quick example text to build on the card title and make up the bulk of the card's content.
                                                             Some quick example text to build on the card title and make up the bulk of the card's content...
                                                         </div>
                                                     </div>
 
-                                                    <div style={timeAgo} className=" text-right small font-weight-light">
+                                                    <div style={timeAgo} className=" text-right small font-weight-light text-warning">
                                                         Topic started by Pontus Hjelm 1 day ago.
                                                     </div>
 
                                                 </div>
                                                 <div className="col-1">
                                                     <span style={categoryStyle2} className="fa fa-comments"></span>
-                                                    <span className="">288</span>
+                                                    <span style={categoryStyle} className="text-light">288</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div className="row">
+                                    <div className="col-12 mt-3">
+                                        <div className="card border-danger backgroundMessage">
+                                            <div className="card-horizontal">
+                                                <div className="col-2">
+                                                    <a href="">
+                                                        <img style={imgstyle} src="https://aprilarmy.world/uploads/2019/01/06/BgRsI8KzdR_120x120.jpg" />
+                                                    </a>
+                                                </div>
+                                                <div className="col-9">
+                                                    <div style={previewContent}>
+                                                        <div className="text-left">
+                                                            <a href="" className="text-light">
+                                                                <b>Post title demo</b>
+                                                            </a>
+                                                            <div style={categoryStyle} className="d-inline-block text-left">
+                                                                <span className="badge badge-danger">Music</span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div className="card-text text-left small text-light">
+                                                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                                                            Some quick example text to build on the card title and make up the bulk of the card's content...
+                                                        </div>
+                                                    </div>
+
+                                                    <div style={timeAgo} className=" text-right small font-weight-light text-warning">
+                                                        Topic started by Pontus Hjelm 1 day ago.
+                                                    </div>
+
+                                                </div>
+                                                <div className="col-1" style={categoryStyle3}>
+                                                    <span style={categoryStyle2} className="fa fa-comments"></span>
+                                                    <span style={categoryStyle} className="text-light">288</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -164,8 +171,15 @@ export default class ForumBody extends Component {
 
 
                         </div>
-                    </div>
 
+
+                        <footer className="small">
+                            <div style={footStyle} className="text-center py-3 text-white">© 2019 Copyright
+                                    <a className="text-white text-center" href="https://aprilarmy.world"> April Army.</a>
+                            </div>
+                        </footer >
+
+                    </div>
                 </div>
 
             </Fragment>
@@ -205,7 +219,12 @@ const categoryStyle = {
 }
 
 const categoryStyle2 = {
-    paddingTop: 40
+    paddingTop: 40,
+    color: 'white'
+}
+
+const categoryStyle3 = {
+    margin: 5
 }
 
 const commentStyle = {
@@ -214,6 +233,9 @@ const commentStyle = {
 
 const styleBackground = {
     width: '100%',
-    height: '100%',
     position: 'absolute'
+}
+
+const footStyle = {
+    marginTop: 'auto'
 }

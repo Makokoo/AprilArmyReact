@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Route, Switch, BrowserRouter } from 'react-router-dom'
 
-import { App } from './components'
+import { App, ForumBody } from './components'
 
 ReactDOM.render(
   <BrowserRouter>
